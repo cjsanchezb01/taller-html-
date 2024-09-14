@@ -1,5 +1,6 @@
+
 body {
-    background-color: powderblue;
+    background-color: rgb(176, 230, 188);
 }
 
 p {
@@ -10,4 +11,9 @@ h1 {
     color: blue;
     font-family: verdana;
     font-size: 300%;
+  }
+  h2 {
+    color: green;
+    font-family: verdana;
+    font-size: 100%;
   }
