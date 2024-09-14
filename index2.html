@@ -1,11 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fútbol Femenino</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    
+<body id="bodyfemi">
+    <!-- Encabezado -->
+    <header>
+        <h1>Fútbol Femenino Mundial</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#articulos">Artículos</a></li>
+                <li><a href="#jugadoras">Jugadoras Destacadas</a></li>
+                <li><a href="#formulario">Inscripción</a></li>
+                <li>
+                    <a href="#mas">Más</a>
+                    <ul>
+                        <li><a href="#multimedia">Multimedia</a></li>
+                        <li><a href="index.html">html 1</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+ <!-- Sección principal -->
+    <main id="inicio">
+        <section>
+            <h2>La Evolución del Fútbol Femenino</h2>
+            <p>El fútbol femenino ha crecido exponencialmente en popularidad en las últimas décadas. Desde su prohibición en algunos países, hasta su reconocimiento en eventos internacionales como la Copa del Mundo Femenina, el desarrollo ha sido increíble.</p>
+            <img src="C:\Users\jocker.alistamiento\Documents\trabajos u\programacion avanzanda\Html\fulbt1.jpg" alt="Partido de fútbol femenino" width="500">
+        </section>
+
+        <section id="articulos">
+            <h2>Artículos Destacados</h2>
+            <article>
+                <h3>Historia del Fútbol Femenino</h3>
+                <p>El fútbol femenino ha recorrido un largo camino desde su origen. Con orígenes en el siglo XX, este deporte ha superado muchas barreras para alcanzar el éxito que tiene hoy.</p>
+                <blockquote>"El crecimiento del fútbol femenino es un triunfo para la igualdad y la pasión por el deporte." - FIFA</blockquote>
+            </article>
+
+            <article>
+                <h3>Impacto Social del Fútbol Femenino</h3>
+                <p>Además de ser un deporte, el fútbol femenino ha tenido un impacto social importante en la lucha por la igualdad de género. Las jugadoras han inspirado a nuevas generaciones a luchar por sus derechos.</p>
+            </article>
+        </section>
+
+        <!-- Tabla de clasificación de la Copa del Mundo Femenina -->
+         
+        <section>
+            <h2>Clasificación de la Copa del Mundo Femenina</h2>
+            <table border="1" id="tabmu">
+                <tr>
+                    <th>Equipo</th>
+                    <th>Puntos</th>
+                    <th>Partidos Ganados</th>
+                </tr>
+                <tr>
+                    <td>EE.UU.</td>
+                    <td>15</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Países Bajos</td>
+                    <td>13</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Japón</td>
+                    <td>10</td>
+                    <td>3</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Lista de jugadoras destacadas -->
+        <section id="jugadoras">
+            <h2>Jugadoras Destacadas de la Historia</h2>
+            <ol>
+                <li>Marta Vieira da Silva</li>
+                <li>Abby Wambach</li>
+                <li>Megan Rapinoe</li>
+                <li>Homare Sawa</li>
+                <li>Christine Sinclair</li>
+            </ol>
+        </section>
+
+        <!-- Sección multimedia -->
+        <section id="multimedia">
+            <h2>Video: La Evolución del Fútbol Femenino</h2>
+            <video width="500" controls>
+                <source href="https://www.youtube.com/watch?v=SUCK7axLCZY&ab_channel=Federaci%C3%B3nColombianadeF%C3%BAtbol" >
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+        </section>
+
+        
+        <!-- Formulario de inscripción -->
+        <section id="formulario">
+            <h2>Inscripción para mas informacion</h2>
+            <form action="/submit" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="equipo">Equipo Favorito:</label>
+                <input type="text" id="equipo" name="equipo"><br><br>
+
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad"><br><br>
+
+                <input type="submit" value="Registrarse">
+            </form>
+        </section>
+    </main>
+
 </body>
 </html>
