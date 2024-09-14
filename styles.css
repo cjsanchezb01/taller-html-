@@ -17,3 +17,7 @@ h1 {
     font-family: verdana;
     font-size: 100%;
   }
+.tabmu {
+    border: 1px solid black;
+    border-radius: 10px;
+  }
